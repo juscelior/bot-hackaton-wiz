@@ -25,7 +25,7 @@ namespace hackaton_wiz.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return new OkObjectResult("Teste");
+            return new OkObjectResult("Teste 2");
         }
 
         [HttpPost]
