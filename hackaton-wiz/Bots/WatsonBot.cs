@@ -146,6 +146,7 @@ namespace hackaton_wiz.Bots
             skill.UserDefined = new Dictionary<string, object>();
             skill.UserDefined.Add("unidade", FUNC.unidade);
             skill.UserDefined.Add("sexo", FUNC.sexo);
+            //Test
 
             skills.Add("main skill", skill);
 
