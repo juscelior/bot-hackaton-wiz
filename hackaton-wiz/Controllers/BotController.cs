@@ -22,6 +22,12 @@ namespace hackaton_wiz.Controllers
             Bot = bot;
         }
 
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return new OkObjectResult("Teste");
+        }
+
         [HttpPost]
         public async Task PostAsync()
         {
